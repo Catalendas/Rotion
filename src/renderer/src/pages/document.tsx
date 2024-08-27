@@ -79,7 +79,7 @@ export function Document() {
         </ToC.Root> */}
       </aside>
 
-      <section className="flex-1 flex flex-col items-center">
+      <section className="flex-1 flex flex-col items-center max-h-[37rem] overflow-x-auto scrollbar-thin scrollbar-thumb-rotion-600 scrollbar-track-rotion-800">
         {!isFetching && data && (
           <Editor
             onContentUpdated={handleEditorContentUpdated}

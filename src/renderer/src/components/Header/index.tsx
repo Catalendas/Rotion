@@ -58,14 +58,14 @@ export function Header({ isSidebarOpen }: HeaderProps) {
           <Breadcrumbs.Root>
             <Breadcrumbs.Item>
               <Code weight="bold" className="h-4 w-4 text-pink-500" />
-              Estrutura técnica
+              Rotion
             </Breadcrumbs.Item>
-            <Breadcrumbs.Separator />
+            {/* <Breadcrumbs.Separator />
             <Breadcrumbs.HiddenItems />
             <Breadcrumbs.Separator />
             <Breadcrumbs.Item>Back-end</Breadcrumbs.Item>
             <Breadcrumbs.Separator />
-            <Breadcrumbs.Item isActive>Untitled</Breadcrumbs.Item>
+            <Breadcrumbs.Item isActive>Untitled</Breadcrumbs.Item> */}
           </Breadcrumbs.Root>
 
           <div className="inline-flex region-no-drag">
